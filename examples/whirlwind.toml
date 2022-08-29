@@ -1,0 +1,6 @@
+[workspace]
+directory = '/home/logan/rust/whirlwind/examples'
+[environment.TURING_PATH]
+value = '/mnt/home/logan.morrison/github/turing'
+
+[commands]

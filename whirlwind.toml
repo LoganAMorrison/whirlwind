@@ -1,0 +1,19 @@
+[workspace]
+directory = '/home/logan/rust/whirlwind'
+
+[environment]
+[commands.pd]
+name = 'pd'
+exec = '/mnt/deck6/logan.morrison/turing/pd.sh'
+
+[[commands.pd.args]]
+name = 'mro_file'
+ty = 'FileArg'
+
+[[commands.pd.args]]
+name = 'output'
+ty = 'PathArg'
+
+[[commands.pd.options]]
+name = 'vdrmode'
+ty = 'FloatArg'
